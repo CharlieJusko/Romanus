@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2109517994559492977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8377491757759804381}
+  - component: {fileID: 251472531528493866}
+  - component: {fileID: 145490953643273990}
+  - component: {fileID: 658239986976177330}
+  - component: {fileID: 9049941687374959151}
+  m_Layer: 8
+  m_Name: Caetus Draft.Left
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8377491757759804381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109517994559492977}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.43045938, y: -0.56098557, z: 0.56098557, w: 0.43045938}
+  m_LocalPosition: {x: 0.07, y: -0.18, z: -0.61}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 105}
+--- !u!33 &251472531528493866
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109517994559492977}
+  m_Mesh: {fileID: -520722393556035593, guid: 385c81f468ebc904d85d0ed8a7d9cae0, type: 3}
+--- !u!23 &145490953643273990
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109517994559492977}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0bca8ddf153b52b45be41e7704211915, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &658239986976177330
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109517994559492977}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Radius: 1.5
+  m_Center: {x: -0.75, y: 0, z: 0}
+--- !u!114 &9049941687374959151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109517994559492977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6df0a9929306e64785a19f9bad0918c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 5
+  equipped: 0
+  wieldingType: 1
+  transformTargets:
+  - holsterParent: {fileID: 0}
+    _holsterParent: 3
+    holsterLocalPos: {x: 0.07, y: -0.18, z: -0.61}
+    holsterLocalEuler: {x: 90, y: 0, z: 105}
+    holsterLocalScale: {x: 0.85, y: 0.85, z: 0.85}
+    equippedParent: {fileID: 0}
+    _equippedParent: 3
+    equippedLocalPos: {x: 0.07, y: -0.18, z: -0.61}
+    equippedLocalEuler: {x: 90, y: 0, z: 105}
+    equippedLocalScale: {x: 0.85, y: 0.85, z: 0.85}
+  - holsterParent: {fileID: 0}
+    _holsterParent: 4
+    holsterLocalPos: {x: -0.045, y: -0.18, z: -0.615}
+    holsterLocalEuler: {x: 90, y: -35, z: 35}
+    holsterLocalScale: {x: 0.85, y: -0.85, z: 0.85}
+    equippedParent: {fileID: 0}
+    _equippedParent: 4
+    equippedLocalPos: {x: -0.045, y: -0.18, z: -0.615}
+    equippedLocalEuler: {x: 90, y: -35, z: 35}
+    equippedLocalScale: {x: 0.85, y: -0.85, z: 0.85}
+  effects:
+  - active: 1
+    condition: 1
+    strategy: 0
+    slowTimeEffect:
+      factor: 0.05
+      duration: 0.01
+  weaponName: Cestus
+  description: "A durable leather gauntlet, with hardened studs embedded in the knuckles.\n\nMade
+    famous from use by the great gladiators in Rome, the Cestus has recently become
+    a staple in the armory of Legions and organized crime syndicates alike. These
+    gauntlets are lightweight, but provide devistating attack power in hand-to-hand
+    combat.\n\n\"We now bathe this altar in the blood of the wretched Mono's. We
+    send their twisted souls to Pluto, in the name of the Mighty Mars! May their
+    blood please you, oh Warlord!\" \n- High Priest of Mars"
+  icon: {fileID: 21300000, guid: d6472c4317afacf4bb327df4fd63bf70, type: 3}

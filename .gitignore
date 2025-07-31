@@ -100,18 +100,33 @@ InitTestScene*.unity*
 
 # Purchased Unity Asset Store Assets
 /[Aa]ssets/FlatKit/
-/[Aa]ssets/Quilbi/
+/[Aa]ssets/FlatKit.meta
+/[Aa]ssets/Quibli/
+/[Aa]ssets/Quibli.meta
 /[Aa]ssets/FImpossible*Creations/
+/[Aa]ssets/FImpossible*Creations.meta
 /[Aa]ssets/GabrielAguiarProductions/
+/[Aa]ssets/GabrielAguiarProductions.meta
+/[Aa]ssets/Game*Buffs/
+/[Aa]ssets/Game*Buffs.meta
 /[Aa]ssets/Gentleland/
+/[Aa]ssets/Gentleland.meta
 /[Aa]ssets/GentlelandSettings/
+/[Aa]ssets/GentlelandSettings.meta
 /[Aa]ssets/JMO*Assets/
-/[Aa]ssets/LowPoly/
+/[Aa]ssets/JMO*Assets.meta
+/[Aa]ssets/LowlyPoly/
+/[Aa]ssets/LowlyPoly.meta
 /[Aa]ssets/Piloto*Studio/
+/[Aa]ssets/Piloto*Studio.meta
 /[Aa]ssets/Samurai_Katana/
-/[Aa]ssets/STORY*-*Stone Pack/
-/[Aa]ssets/story*stone pack/
+/[Aa]ssets/Samurai_Katana.meta
+/[Aa]ssets/STORY*-*Stone*Pack/
+/[Aa]ssets/STORY*-*Stone*Pack.meta
+/[Aa]ssets/story*stone*pack/
+/[Aa]ssets/story*stone*pack.meta
 /[Aa]ssets/SFX/
 /[Aa]ssets/WeMakeTheGame*AnimSet/
+/[Aa]ssets/WeMakeTheGame*AnimSet.meta
 /[Aa]ssets/ZerinLabs_shaderPack_CartoonSky/
-/Assets/FImpossible Creations
+/[Aa]ssets/ZerinLabs_shaderPack_CartoonSky.meta

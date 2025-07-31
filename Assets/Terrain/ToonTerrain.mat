@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4466386741836445184
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ToonTerrain
+  m_Shader: {fileID: -6465566751694194690, guid: 8d5d5c3ad4b833e46aa3fe7de9376f72, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Base_Normal_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Base_Occlusion_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Base_Texture:
+        m_Texture: {fileID: 2800000, guid: c09391ce44455c84699b267d763df63a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Middle_1_Texture:
+        m_Texture: {fileID: 2800000, guid: 8e079c885390c324c8d7639b8abea8b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Middle_2_Texture:
+        m_Texture: {fileID: 2800000, guid: 8e079c885390c324c8d7639b8abea8b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Mountain_Normal_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Mountain_Texture:
+        m_Texture: {fileID: 2800000, guid: 85f01b52bbdf5e74b9e8c754cfbc24e4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - ToonShadingEmissionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Top_Texture:
+        m_Texture: {fileID: 2800000, guid: 22ed83a73ed51a04189cf374b5d59574, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Watercolor_Noise_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b85ffb1c8461419ebfb27ee9f2a666c7_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 283719fb3808efe45bc18f0b6d18cbd6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VerticalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Blend_Height: 100
+    - Blend_Sharpness: 12.1
+    - Brightness_Rim: 0
+    - HalftoneCellDensity: 10
+    - HalftoneRotation: 0
+    - HalftoneShadingMultiplier: 0.5
+    - Halftone_Cell_Density: 0
+    - Halftone_Rotation: 1
+    - Halftone_Softness: 0
+    - Mountain_Height_Blend: 0
+    - OutineFarNormalEndDepth: 10
+    - OutlineAcuteDepthThreshold: 1
+    - OutlineAcuteStartDot: 0.9
+    - OutlineDepthStrength: 1
+    - OutlineDepthThreshold: 1
+    - OutlineDepthTightening: 1
+    - OutlineFarNormalStartDepth: 1
+    - OutlineFarNormalThreshold: 1
+    - OutlineNormalStrength: 1
+    - OutlineNormalThreshold: 1
+    - OutlineNormalTightening: 5
+    - OutlineThickness: 0.001
+    - Rim_Power: 0
+    - ToonShadingRimBrightness: 0
+    - ToonShadingRimPower: 0
+    - ToonShadingToonRampOffset: 0
+    - ToonShadingToonRampSmoothness: 0
+    - Toon_Ramp_Offset: 0.85
+    - Toon_Ramp_Smoothness: 0
+    - Watercolor_Fresnel_Amount: 0.25
+    - Watercolor_Fresnel_Power: 0
+    - Watercolor_Noise_Brighten: 0.25
+    - Watercolor_Noise_Strength: 0.75
+    - Watercolor_Ouline_Normal_Strength: 0
+    - Watercolor_OutlineDepthStrength: 0
+    - Watercolor_OutlineDepthThreshold: 0
+    - Watercolor_OutlineDepthTightening: 0
+    - Watercolor_OutlineFarNormalStartDepth: 0
+    - Watercolor_OutlineFarNormalThreshold: 0
+    - Watercolor_OutlineNormalStrength: 0
+    - Watercolor_OutlineNormalThreshold: 0
+    - Watercolor_OutlineNormalTightening: 0
+    - Watercolor_OutlineThickness: 0
+    - Watercolor_Outline_Depth_Strength: 0
+    - Watercolor_Outline_Depth_Threshold: 0
+    - Watercolor_Outline_Depth_Tightening: 0
+    - Watercolor_Outline_FarNormal_Start_Depth: 0
+    - Watercolor_Outline_FarNormal_Threshold: 0
+    - Watercolor_Outline_Normal_Threshold: 0
+    - Watercolor_Outline_Normal_Tightening: 0
+    - Watercolor_Outline_Thickness: 0
+    - Watercolor_PaintSplatterAmount: 0
+    - Watercolor_Paint_Splatter_Amount: 0
+    - Watercolor_ToonRampOffset: 0
+    - Watercolor_ToonRampSmoothness: 0
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _USE_SCREEN_SPACE: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - ToonShadingToonRampTine: {r: 1, g: 1, b: 1, a: 1}
+    - Toon_Ramp_Tint: {r: 0, g: 0, b: 0, a: 1}
+    - UV_Offset: {r: 1, g: 0, b: 0, a: 0}
+    - UV_Offset_1: {r: 1, g: 0, b: 0, a: 0}
+    - UV_Tiling: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - UV_Tiling_1: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - Watercolor_Colour: {r: 0, g: 0, b: 0, a: 0}
+    - Watercolor_OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - Watercolor_Outline_Color: {r: 0, g: 0, b: 0, a: 0}
+    - Watercolor_Outlinecolor: {r: 0, g: 0, b: 0, a: 0}
+    - Watercolor_Shadow_Color: {r: 0.3882353, g: 0.18609297, b: 0.14117648, a: 0}
+    - Watercolor_Shadow_Colour: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

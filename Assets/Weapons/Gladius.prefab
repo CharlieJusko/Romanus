@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4602673437632370452
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e2724008fd458324388c4e8435b7d697, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e2724008fd458324388c4e8435b7d697, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 96f6d749c83d2b84691971fa472d40dc, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: 'm_Materials.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d47a5bb6c278694c9f4a03e718951b8, type: 2}
+    - target: {fileID: 919132149155446097, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      propertyPath: m_Name
+      value: Gladius
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2107979220489698504}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9052937504655973332}
+  m_SourcePrefab: {fileID: 100100000, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+--- !u!1 &3683542945395976773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3f551ecdd19f33e4c88f9269474cce14, type: 3}
+  m_PrefabInstance: {fileID: 4602673437632370452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2107979220489698504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3683542945395976773}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Center: {x: 0, y: 3.25, z: 0}
+--- !u!114 &9052937504655973332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3683542945395976773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6df0a9929306e64785a19f9bad0918c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 5
+  equipped: 1
+  wieldingType: 0
+  transformTargets:
+  - holsterParent: {fileID: 0}
+    _holsterParent: 4
+    holsterLocalPos: {x: -0.14, y: 0.09, z: -0.89}
+    holsterLocalEuler: {x: 90, y: 0, z: 90}
+    holsterLocalScale: {x: 0.8, y: 0.95, z: 0.8}
+    equippedParent: {fileID: 0}
+    _equippedParent: 4
+    equippedLocalPos: {x: -0.14, y: 0.09, z: -0.89}
+    equippedLocalEuler: {x: 90, y: 0, z: 90}
+    equippedLocalScale: {x: 0.8, y: 0.95, z: 0.8}
+  effects: []
+  weaponType: 10
+  overrideController: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 800a69a4d2e834ce496e7619e2eba283, type: 3}
+  sfxVolume: 0.5
+  hitSFX: {fileID: 8300000, guid: 97dfc786a52334ec8a042f0452397d54, type: 3}
+  visceralSFX: {fileID: 8300000, guid: 096025ef90f7348c0a19a7be2e391c6d, type: 3}
+  weaponName: Gladius
+  description: TODO
+  icon: {fileID: 5740775765791094921, guid: 252d1f9f9eb6dfe46873735361f596d6, type: 3}

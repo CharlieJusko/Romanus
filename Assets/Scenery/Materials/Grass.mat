@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grass
+  m_Shader: {fileID: -6465566751694194690, guid: 55d33328ab3ba4efca3c7706d97d8ee8, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ALPHATEST_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_f5cad48c1de740ff8144c7fbe0b37b75:
+        m_Texture: {fileID: 2800000, guid: f7ba721c4b13d409681623b0925e5ff8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 1336a8e0a8ce1494ba60d2d9e3e432e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1336a8e0a8ce1494ba60d2d9e3e432e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Alpha_Clip_Threshold: 0.333
+    - Boolean_1: 0
+    - Boolean_2: 0
+    - Boolean_54ef369afb0741ac878c5a407a2c0130: 0
+    - Space_0: 0
+    - Space_1: 0
+    - Space_2: 0
+    - Space_3: 0
+    - Vector1_0edac212d9784c958493aba2abb21273: 0
+    - Vector1_9b8301ee900843cabb760acbaf52c930: 0
+    - _54ef369afb0741ac878c5a407a2c0130_1: 0
+    - _54ef369afb0741ac878c5a407a2c0130_2: 0
+    - _AlphaClip: 1
+    - _AlphaClipThreshold: 0.17
+    - _AlphaToMask: 1
+    - _Blend: 0
+    - _CastShadows: 1
+    - _Cull: 0
+    - _DisplacementSize: 1
+    - _DisplacementStrength: 1
+    - _DstBlend: 0
+    - _GustEnabled: 0
+    - _GustFrequency: 1
+    - _GustIntensity: 0.2
+    - _GustSpeed: 0.2
+    - _LightContrib: 0.114
+    - _PatchesAmount: 0.25
+    - _PatchesBluriness: 1
+    - _PatchesEnabled: 1
+    - _PatchesFrequency: 0.05
+    - _PatchesScale: 1
+    - _PatchesSharpness: 1
+    - _PatchesSize: 0.722
+    - _PatchesThreshold: 0.7
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ShadowPower: 1
+    - _ShadowStrength: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WindDirection: 0
+    - _WindEnabled: 0
+    - _WindFrequency: 3
+    - _WindIntensity: 1
+    - _WindNoise: 10
+    - _WindSpeed: 0.75
+    - _WindSwayAmount: 1
+    - _WindSwaySpeed: 0.5
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - Color_8625870c808d4f1b93a120fb2366b73e: {r: 0, g: 0, b: 0, a: 0}
+    - Color_fa7bfd953c0f468faf964c3a5545c86d: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorBottom: {r: 0.26839346, g: 0.30980393, b: 0.18557256, a: 1}
+    - _ColorTop: {r: 0.528125, g: 0.65, b: 0.45499998, a: 1}
+    - _DisplacementPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _GustColor: {r: 0.5372549, g: 0.36470586, b: 0.11764703, a: 1}
+    - _Main_Color: {r: 0.8, g: 0.71000004, b: 0.44000003, a: 1}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _PatchesColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PatchesOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _SecondaryColor: {r: 0.937255, g: 0.7568628, b: 0.24705875, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _WindDirection: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &1297332593301578871
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
