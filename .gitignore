@@ -97,3 +97,21 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Purchased Unity Asset Store Assets
+/[Aa]ssets/FlatKit/
+/[Aa]ssets/Quilbi/
+/[Aa]ssets/FImpossible*Creations/
+/[Aa]ssets/GabrielAguiarProductions/
+/[Aa]ssets/Gentleland/
+/[Aa]ssets/GentlelandSettings/
+/[Aa]ssets/JMO*Assets/
+/[Aa]ssets/LowPoly/
+/[Aa]ssets/Piloto*Studio/
+/[Aa]ssets/Samurai_Katana/
+/[Aa]ssets/STORY*-*Stone Pack/
+/[Aa]ssets/story*stone pack/
+/[Aa]ssets/SFX/
+/[Aa]ssets/WeMakeTheGame*AnimSet/
+/[Aa]ssets/ZerinLabs_shaderPack_CartoonSky/
+/Assets/FImpossible Creations
